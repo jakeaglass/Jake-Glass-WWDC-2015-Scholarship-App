@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D76841531AEDA2480057212A /* JAGProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76841521AEDA2480057212A /* JAGProjectsTableViewController.swift */; };
+		D76841551AEDB0200057212A /* JAGCSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76841541AEDB0200057212A /* JAGCSViewController.swift */; };
+		D76841571AEDB14C0057212A /* JAGFutureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76841561AEDB14C0057212A /* JAGFutureViewController.swift */; };
+		D76841591AEDB17E0057212A /* JAGSpeechnDebateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76841581AEDB17E0057212A /* JAGSpeechnDebateViewController.swift */; };
+		D776ABA31AE9F42300B96CA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776ABA21AE9F42300B96CA8 /* AppDelegate.swift */; };
+		D776ABA51AE9F42300B96CA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776ABA41AE9F42300B96CA8 /* ViewController.swift */; };
+		D776ABA81AE9F42300B96CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D776ABA61AE9F42300B96CA8 /* Main.storyboard */; };
+		D776ABAA1AE9F42300B96CA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D776ABA91AE9F42300B96CA8 /* Images.xcassets */; };
+		D776ABAD1AE9F42300B96CA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D776ABAB1AE9F42300B96CA8 /* LaunchScreen.xib */; };
+		D776ABB91AE9F42300B96CA8 /* Jake_GlassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776ABB81AE9F42300B96CA8 /* Jake_GlassTests.swift */; };
+		D776ABC31AE9F4D700B96CA8 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D776ABC21AE9F4D700B96CA8 /* SceneKit.framework */; };
+		D776ABC51AE9F53900B96CA8 /* JAGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776ABC41AE9F53900B96CA8 /* JAGView.swift */; };
+		D7EE84F61AEC3C72001C884D /* pial_DK_obj in Resources */ = {isa = PBXBuildFile; fileRef = D7EE84F51AEC3C72001C884D /* pial_DK_obj */; };
+		D7EE84F81AED4631001C884D /* human-brain-min-3.dae in Resources */ = {isa = PBXBuildFile; fileRef = D7EE84F71AED4631001C884D /* human-brain-min-3.dae */; };
+		D7EE84FC1AED5C8D001C884D /* JAGInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EE84FB1AED5C8D001C884D /* JAGInformationViewController.swift */; };
+		D7EE84FE1AED62C3001C884D /* JAGModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EE84FD1AED62C3001C884D /* JAGModalViewController.swift */; };
+		D7EE85001AED8653001C884D /* JAGLanguagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EE84FF1AED8653001C884D /* JAGLanguagesViewController.swift */; };
+		D7EE85061AED9078001C884D /* JAGBSAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EE85051AED9078001C884D /* JAGBSAViewController.swift */; };
+		D7EE850A1AED931A001C884D /* fleurdelis300x300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7EE85091AED931A001C884D /* fleurdelis300x300.jpg */; };
+		D7EE85181AED99BF001C884D /* hdrValley.png in Resources */ = {isa = PBXBuildFile; fileRef = D7EE85171AED99BF001C884D /* hdrValley.png */; };
+		D7EE851A1AED9CC3001C884D /* JAGProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EE85191AED9CC3001C884D /* JAGProjectsViewController.swift */; };
+		D7EE851E1AED9FCF001C884D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7EE851D1AED9FCF001C884D /* 1.png */; };
+		D7EE85201AED9FF4001C884D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7EE851F1AED9FF4001C884D /* 2.png */; };
+		D7EE85221AEDA016001C884D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D7EE85211AEDA016001C884D /* 3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D776ABB31AE9F42300B96CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D776AB951AE9F42300B96CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D776AB9C1AE9F42300B96CA8;
+			remoteInfo = "Jake Glass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D76841521AEDA2480057212A /* JAGProjectsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JAGProjectsTableViewController.swift; path = ../JAGProjectsTableViewController.swift; sourceTree = "<group>"; };
+		D76841541AEDB0200057212A /* JAGCSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAGCSViewController.swift; sourceTree = "<group>"; };
+		D76841561AEDB14C0057212A /* JAGFutureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAGFutureViewController.swift; sourceTree = "<group>"; };
+		D76841581AEDB17E0057212A /* JAGSpeechnDebateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAGSpeechnDebateViewController.swift; sourceTree = "<group>"; };
+		D776AB9D1AE9F42300B96CA8 /* Jake Glass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jake Glass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D776ABA11AE9F42300B96CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D776ABA21AE9F42300B96CA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D776ABA41AE9F42300B96CA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D776ABA71AE9F42300B96CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D776ABA91AE9F42300B96CA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D776ABAC1AE9F42300B96CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D776ABB21AE9F42300B96CA8 /* Jake GlassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jake GlassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D776ABB71AE9F42300B96CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D776ABB81AE9F42300B96CA8 /* Jake_GlassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jake_GlassTests.swift; sourceTree = "<group>"; };
+		D776ABC21AE9F4D700B96CA8 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		D776ABC41AE9F53900B96CA8 /* JAGView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAGView.swift; sourceTree = "<group>"; };
+		D7EE84F51AEC3C72001C884D /* pial_DK_obj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pial_DK_obj; sourceTree = "<group>"; };
+		D7EE84F71AED4631001C884D /* human-brain-min-3.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "human-brain-min-3.dae"; sourceTree = "<group>"; };
+		D7EE84FB1AED5C8D001C884D /* JAGInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAGInformationViewController.swift; sourceTree = "<group>"; };
+		D7EE84FD1AED62C3001C884D /* JAGModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAGModalViewController.swift; sourceTree = "<group>"; };
+		D7EE84FF1AED8653001C884D /* JAGLanguagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAGLanguagesViewController.swift; sourceTree = "<group>"; };
+		D7EE85051AED9078001C884D /* JAGBSAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAGBSAViewController.swift; sourceTree = "<group>"; };
+		D7EE85091AED931A001C884D /* fleurdelis300x300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fleurdelis300x300.jpg; sourceTree = "<group>"; };
+		D7EE85171AED99BF001C884D /* hdrValley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdrValley.png; sourceTree = "<group>"; };
+		D7EE85191AED9CC3001C884D /* JAGProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAGProjectsViewController.swift; sourceTree = "<group>"; };
+		D7EE851D1AED9FCF001C884D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D7EE851F1AED9FF4001C884D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		D7EE85211AEDA016001C884D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D776AB9A1AE9F42300B96CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D776ABC31AE9F4D700B96CA8 /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776ABAF1AE9F42300B96CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D776AB941AE9F42300B96CA8 = {
+			isa = PBXGroup;
+			children = (
+				D776ABC21AE9F4D700B96CA8 /* SceneKit.framework */,
+				D776AB9F1AE9F42300B96CA8 /* Jake Glass */,
+				D776ABB51AE9F42300B96CA8 /* Jake GlassTests */,
+				D776AB9E1AE9F42300B96CA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D776AB9E1AE9F42300B96CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D776AB9D1AE9F42300B96CA8 /* Jake Glass.app */,
+				D776ABB21AE9F42300B96CA8 /* Jake GlassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D776AB9F1AE9F42300B96CA8 /* Jake Glass */ = {
+			isa = PBXGroup;
+			children = (
+				D776ABA21AE9F42300B96CA8 /* AppDelegate.swift */,
+				D76841521AEDA2480057212A /* JAGProjectsTableViewController.swift */,
+				D76841541AEDB0200057212A /* JAGCSViewController.swift */,
+				D76841561AEDB14C0057212A /* JAGFutureViewController.swift */,
+				D76841581AEDB17E0057212A /* JAGSpeechnDebateViewController.swift */,
+				D776ABC41AE9F53900B96CA8 /* JAGView.swift */,
+				D7EE84FF1AED8653001C884D /* JAGLanguagesViewController.swift */,
+				D7EE85051AED9078001C884D /* JAGBSAViewController.swift */,
+				D7EE85191AED9CC3001C884D /* JAGProjectsViewController.swift */,
+				D7EE85091AED931A001C884D /* fleurdelis300x300.jpg */,
+				D7EE851F1AED9FF4001C884D /* 2.png */,
+				D7EE85211AEDA016001C884D /* 3.png */,
+				D7EE851D1AED9FCF001C884D /* 1.png */,
+				D7EE84FB1AED5C8D001C884D /* JAGInformationViewController.swift */,
+				D7EE85171AED99BF001C884D /* hdrValley.png */,
+				D7EE84FD1AED62C3001C884D /* JAGModalViewController.swift */,
+				D776ABA41AE9F42300B96CA8 /* ViewController.swift */,
+				D776ABA61AE9F42300B96CA8 /* Main.storyboard */,
+				D776ABA91AE9F42300B96CA8 /* Images.xcassets */,
+				D776ABAB1AE9F42300B96CA8 /* LaunchScreen.xib */,
+				D7EE84F51AEC3C72001C884D /* pial_DK_obj */,
+				D776ABA01AE9F42300B96CA8 /* Supporting Files */,
+			);
+			path = "Jake Glass";
+			sourceTree = "<group>";
+		};
+		D776ABA01AE9F42300B96CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7EE84F71AED4631001C884D /* human-brain-min-3.dae */,
+				D776ABA11AE9F42300B96CA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D776ABB51AE9F42300B96CA8 /* Jake GlassTests */ = {
+			isa = PBXGroup;
+			children = (
+				D776ABB81AE9F42300B96CA8 /* Jake_GlassTests.swift */,
+				D776ABB61AE9F42300B96CA8 /* Supporting Files */,
+			);
+			path = "Jake GlassTests";
+			sourceTree = "<group>";
+		};
+		D776ABB61AE9F42300B96CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D776ABB71AE9F42300B96CA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D776AB9C1AE9F42300B96CA8 /* Jake Glass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D776ABBC1AE9F42300B96CA8 /* Build configuration list for PBXNativeTarget "Jake Glass" */;
+			buildPhases = (
+				D776AB991AE9F42300B96CA8 /* Sources */,
+				D776AB9A1AE9F42300B96CA8 /* Frameworks */,
+				D776AB9B1AE9F42300B96CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jake Glass";
+			productName = "Jake Glass";
+			productReference = D776AB9D1AE9F42300B96CA8 /* Jake Glass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D776ABB11AE9F42300B96CA8 /* Jake GlassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D776ABBF1AE9F42300B96CA8 /* Build configuration list for PBXNativeTarget "Jake GlassTests" */;
+			buildPhases = (
+				D776ABAE1AE9F42300B96CA8 /* Sources */,
+				D776ABAF1AE9F42300B96CA8 /* Frameworks */,
+				D776ABB01AE9F42300B96CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D776ABB41AE9F42300B96CA8 /* PBXTargetDependency */,
+			);
+			name = "Jake GlassTests";
+			productName = "Jake GlassTests";
+			productReference = D776ABB21AE9F42300B96CA8 /* Jake GlassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D776AB951AE9F42300B96CA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Squee! Apps";
+				TargetAttributes = {
+					D776AB9C1AE9F42300B96CA8 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = CE6EK52VST;
+					};
+					D776ABB11AE9F42300B96CA8 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D776AB9C1AE9F42300B96CA8;
+					};
+				};
+			};
+			buildConfigurationList = D776AB981AE9F42300B96CA8 /* Build configuration list for PBXProject "Jake Glass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D776AB941AE9F42300B96CA8;
+			productRefGroup = D776AB9E1AE9F42300B96CA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D776AB9C1AE9F42300B96CA8 /* Jake Glass */,
+				D776ABB11AE9F42300B96CA8 /* Jake GlassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D776AB9B1AE9F42300B96CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7EE85201AED9FF4001C884D /* 2.png in Resources */,
+				D7EE84F81AED4631001C884D /* human-brain-min-3.dae in Resources */,
+				D7EE85221AEDA016001C884D /* 3.png in Resources */,
+				D7EE850A1AED931A001C884D /* fleurdelis300x300.jpg in Resources */,
+				D776ABA81AE9F42300B96CA8 /* Main.storyboard in Resources */,
+				D776ABAD1AE9F42300B96CA8 /* LaunchScreen.xib in Resources */,
+				D776ABAA1AE9F42300B96CA8 /* Images.xcassets in Resources */,
+				D7EE84F61AEC3C72001C884D /* pial_DK_obj in Resources */,
+				D7EE85181AED99BF001C884D /* hdrValley.png in Resources */,
+				D7EE851E1AED9FCF001C884D /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776ABB01AE9F42300B96CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D776AB991AE9F42300B96CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76841531AEDA2480057212A /* JAGProjectsTableViewController.swift in Sources */,
+				D76841551AEDB0200057212A /* JAGCSViewController.swift in Sources */,
+				D7EE85001AED8653001C884D /* JAGLanguagesViewController.swift in Sources */,
+				D7EE84FC1AED5C8D001C884D /* JAGInformationViewController.swift in Sources */,
+				D776ABC51AE9F53900B96CA8 /* JAGView.swift in Sources */,
+				D776ABA51AE9F42300B96CA8 /* ViewController.swift in Sources */,
+				D7EE84FE1AED62C3001C884D /* JAGModalViewController.swift in Sources */,
+				D7EE851A1AED9CC3001C884D /* JAGProjectsViewController.swift in Sources */,
+				D7EE85061AED9078001C884D /* JAGBSAViewController.swift in Sources */,
+				D76841571AEDB14C0057212A /* JAGFutureViewController.swift in Sources */,
+				D776ABA31AE9F42300B96CA8 /* AppDelegate.swift in Sources */,
+				D76841591AEDB17E0057212A /* JAGSpeechnDebateViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776ABAE1AE9F42300B96CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D776ABB91AE9F42300B96CA8 /* Jake_GlassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D776ABB41AE9F42300B96CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D776AB9C1AE9F42300B96CA8 /* Jake Glass */;
+			targetProxy = D776ABB31AE9F42300B96CA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D776ABA61AE9F42300B96CA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D776ABA71AE9F42300B96CA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D776ABAB1AE9F42300B96CA8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D776ABAC1AE9F42300B96CA8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D776ABBA1AE9F42300B96CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D776ABBB1AE9F42300B96CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D776ABBD1AE9F42300B96CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Jake Glass/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D776ABBE1AE9F42300B96CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Jake Glass/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D776ABC01AE9F42300B96CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jake GlassTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jake Glass.app/Jake Glass";
+			};
+			name = Debug;
+		};
+		D776ABC11AE9F42300B96CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jake GlassTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jake Glass.app/Jake Glass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D776AB981AE9F42300B96CA8 /* Build configuration list for PBXProject "Jake Glass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D776ABBA1AE9F42300B96CA8 /* Debug */,
+				D776ABBB1AE9F42300B96CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D776ABBC1AE9F42300B96CA8 /* Build configuration list for PBXNativeTarget "Jake Glass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D776ABBD1AE9F42300B96CA8 /* Debug */,
+				D776ABBE1AE9F42300B96CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D776ABBF1AE9F42300B96CA8 /* Build configuration list for PBXNativeTarget "Jake GlassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D776ABC01AE9F42300B96CA8 /* Debug */,
+				D776ABC11AE9F42300B96CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D776AB951AE9F42300B96CA8 /* Project object */;
+}
